@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { getAllPosts } from '../../lib/api';
 
 // styles
-import styles from '../../styles/Home.module.css';
-import blogStyles from '../../styles/Blog.module.css';
+import styles from '../home.module.scss';
+import blogStyles from './blog.module.scss';
 
 const Blog = ({ allPosts: { edges } }) => (
     <div className={styles.container}>

@@ -6,8 +6,8 @@ import Link from 'next/link';
 import { getAllPostsWithSlug, getPost } from '../../lib/api';
 
 //styles
-import styles from '../../styles/Home.module.css';
-import blogStyles from '../../styles/Blog.module.css';
+import styles from '../home.module.scss';
+import blogStyles from './blog.module.scss';
 
 export default function Post({ postData }) {
 
